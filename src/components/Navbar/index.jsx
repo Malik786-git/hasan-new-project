@@ -50,9 +50,9 @@ const Navbar = () => {
             <ul className="px-0">
               <li onClick={()=>{navigate("/")}}>Home</li>
               <li onClick={()=>{navigate("/about")}} >About</li>
-              <li>Products</li>
+              <li onClick={()=>{navigate("/products")}} >Products</li>
               <li>Team</li>
-              <li>FAQS</li>
+              <li onClick={()=>{navigate("/faqs")}} >FAQS</li>
             </ul>
           </div>
           <div>
