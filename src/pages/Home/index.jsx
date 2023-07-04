@@ -34,7 +34,7 @@ const Home = () => {
             data-aos-easing="ease-in-sine" className="col-lg-10 col-md-12 col-sm-12  col-12">
             <p className={styles.main_para + " main_para"}>Welcome to</p>
             <p className={styles.main_para + " main_para " + styles.main_para2}>
-              Empureal Exchange
+            Empyreal Exchange
             </p>
           </div>
           <div data-aos="zoom-out-down" data-aos-delay="1000" className={"col-lg-2 col-md-12 col-sm-12 col-12 text-end " + styles.social_icons_section}>
