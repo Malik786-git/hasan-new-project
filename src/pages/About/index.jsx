@@ -6,6 +6,7 @@ import cardImg1 from "../../assets/card_img-1.png"
 import cardImg2 from "../../assets/card_img-2.png"
 import cardImg3 from "../../assets/card_img-3.png"
 import AboutCard from "../../components/AboutCard"
+import FooterBar from "../../components/FooterBar"
 const About = () => {
     return (
 
@@ -48,7 +49,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
+        <FooterBar />
         </div>
 
     )

@@ -37,7 +37,7 @@ const index = () => {
           <div className="row mt-5">
             <div className="col-lg-6 col-md-8 mx-auto mt-5">
               <h1 className={`${styles.faqs_heading} text-center`}>F.A.Q</h1>
-              <div className={styles.faqs_section}>
+              <div  data-aos="fade-down" className={styles.faqs_section}>
                 {/* faq item mapping... */}
                 {faqs &&
                   faqs?.map((item) => (

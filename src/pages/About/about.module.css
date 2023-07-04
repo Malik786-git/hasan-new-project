@@ -8,11 +8,24 @@
 }
 .mid_circle{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
     z-index: 1;
+
+   animation: rotate 5s infinite linear; 
 }
+.mid_circle:hover{
+    animation-duration: 60s;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
 .about_main{
     height: 75%;
 }
