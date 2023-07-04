@@ -39,7 +39,8 @@
 } */
 .nav_main a{
     font-size: 14px;
-    color: rgb(162, 162, 162);
+    /* color: rgb(202, 202, 202); */
+    
     transform: .1s;
     
 }

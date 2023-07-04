@@ -19,9 +19,9 @@ const Navbar = () => {
           <ul className="px-0 d-flex">
             <li className={styles.nav_items} onClick={()=>{navigate("/")}} >HOME</li>
             <li className={styles.nav_items} onClick={()=>{navigate("/about")}}  >ABOUT US</li>
-            <li className={styles.nav_items} >PRODUCTS</li>
+            <li className={styles.nav_items}  >PRODUCTS</li>
             <li className={styles.nav_items} >TEAM</li>
-            <li className={styles.nav_items} >FAQS</li>
+            <li className={styles.nav_items} onClick={()=>{navigate("/faqs")}}  >FAQS</li>
           </ul>
         </div>
 
