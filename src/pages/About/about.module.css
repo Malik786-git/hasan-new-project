@@ -1,0 +1,75 @@
+.about_container{
+    background-image: url('../../assets/aboutBack.png');
+    background-size: cover;
+    height: 100vh;
+    background-color: rebeccapurple;
+    position: relative;
+}
+.mid_circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about_main{
+    height: 75%;
+}
+.main_para{
+    color: white;
+    line-height: 60px !important;
+}
+.about_row{
+    height: 100%;
+}
+.about_span{
+    color: rgba(255, 255, 255, 0.50);
+font-size: 16px;
+font-family: Chakra Petch;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.16px;
+}
+.second_card{
+    margin-left: 100px;
+}
+
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1220.98px) { 
+    .second_card{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 1140.98px) { 
+    .second_card{
+        margin-left: 10px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .about_container{
+        height: 100%;
+    }
+    .second_card{
+        margin-left: 0px;
+    }
+    .card_main{
+    
+        width: 520px !important;
+        margin: auto !important;
+        margin-top: 20px !important ;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+

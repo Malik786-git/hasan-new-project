@@ -1,0 +1,39 @@
+.faqs_item {
+  border: 1px solid rgba(152, 151, 172, 0.4);
+}
+
+.faqs_body {
+  background-color: rgba(152, 151, 172, 0.4);
+  backdrop-filter: blur(10px);
+  margin: 5px;
+  max-height: 80px;
+  overflow-y: hidden;
+  transition: all 0.5s ease;
+}
+
+.faqs_body:hover {
+  max-height: 300px;
+  transition: all 0.5s ease;
+}
+
+.btn_outline {
+  border: 1px solid rgba(152, 151, 172, 0.4);
+}
+.child_btn {
+  padding: 5px 15px;
+  border: none;
+  margin: 4px;
+}
+.faq_answer {
+  margin-top: 20px;
+}
+.faq_answer p {
+  border-top: 1px solid rgba(152, 151, 172, 0.4);
+}
+
+@media screen and (max-width: 576px) {
+  .faqs_body:hover {
+    max-height: 400px;
+    transition: all 0.5s ease;
+  }
+}

@@ -1,0 +1,31 @@
+.faqs_section_wrapper {
+  background-image: url("./images/faqs/faqbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-top: -55px;
+  background-color: black;
+  color: #fff;
+}
+.faqs_heading {
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .faqs_heading {
+        font-size: 80px;
+      }
+      
+  }
+
+@media screen and (max-width: 576px) {
+    .faqs_heading {
+        font-size: 60px;
+      }
+      
+  }
