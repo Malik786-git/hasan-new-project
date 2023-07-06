@@ -20,7 +20,7 @@ const Navbar = () => {
             <li className={styles.nav_items} onClick={()=>{navigate("/")}} >HOME</li>
             <li className={styles.nav_items} onClick={()=>{navigate("/about")}}  >ABOUT US</li>
             <li className={styles.nav_items} onClick={()=>{navigate("/products")}}  >PRODUCTS</li>
-            <li className={styles.nav_items} >TEAM</li>
+            <li className={styles.nav_items} onClick={()=>{navigate("/team")}} >TEAM</li>
             <li className={styles.nav_items} onClick={()=>{navigate("/faqs")}}  >FAQS</li>
           </ul>
         </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <li onClick={()=>{navigate("/")}}>Home</li>
               <li onClick={()=>{navigate("/about")}} >About</li>
               <li onClick={()=>{navigate("/products")}} >Products</li>
-              <li>Team</li>
+              <li onClick={()=>{navigate("/team")}} >Team</li>
               <li onClick={()=>{navigate("/faqs")}} >FAQS</li>
             </ul>
           </div>

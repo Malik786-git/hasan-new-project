@@ -7,7 +7,13 @@ import cardImg2 from "../../assets/card_img-2.png"
 import cardImg3 from "../../assets/card_img-3.png"
 import AboutCard from "../../components/AboutCard"
 import FooterBar from "../../components/FooterBar"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
 
         <div className={"container-fluid " + styles.about_container}>

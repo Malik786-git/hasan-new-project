@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import FAQs from "../pages/FAQs";
 import Products from "../pages/Products";
+import Team from "../pages/Team";
 
 
 const  publicRoutes = createBrowserRouter([
@@ -21,6 +22,10 @@ const  publicRoutes = createBrowserRouter([
     {
         path: "/faqs",
         element: <FAQs/>
+    },
+    {
+        path: "/team",
+        element: <Team/>
     }
 ])
 

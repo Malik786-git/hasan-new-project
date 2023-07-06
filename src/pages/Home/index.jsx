@@ -9,7 +9,7 @@ import ExploreBtn from "../../components/ExploreBtn";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
-
+import midIcon from "../../assets/homeMidCircle.svg"
 const Home = () => {
   useEffect(() => {
     AOS.init();
@@ -20,6 +20,7 @@ const Home = () => {
       {/* xxxxx */}
 
       <div className={`${styles.home_container} container`}>
+      <img className={styles.mid_circle} src={midIcon} alt="" />
         <div className="row mt-0 py-5 mt-lg-5">
           {/* max-992 */}
           <div className="col-7 ">

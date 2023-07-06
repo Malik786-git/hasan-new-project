@@ -2,7 +2,9 @@ import Navbar from "../../components/Navbar";
 import styles from "./faqs.module.css";
 import FAQItem from "../../components/FAQItem";
 import FooterBar from "../../components/FooterBar";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const faqs = [
   {
     id: 1,
@@ -29,12 +31,15 @@ const faqs = [
 
 
 const index = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <Navbar />
       <div className={`${styles.faqs_section_wrapper} pt-5`}>
         <div className="container">
-          <div className="row mt-5">
+          <div className="row">
             <div className="col-lg-6 col-md-8 mx-auto mt-5">
               <h1 className={`${styles.faqs_heading} text-center`}>F.A.Q</h1>
               <div  data-aos="fade-down" className={styles.faqs_section}>

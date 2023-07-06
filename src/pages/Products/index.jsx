@@ -3,8 +3,14 @@ import styles from "./product.module.css";
 import cardImg1 from "../../assets/P-card1.png";
 import cardImg2 from "../../assets/P-card2.png";
 import FooterBar from '../../components/FooterBar';  
-const Products = () => {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
+const Products = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
 
         <div className={styles.product_main}>
