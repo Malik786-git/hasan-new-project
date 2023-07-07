@@ -1,5 +1,5 @@
 .container{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../../assets/teamBG.png');
     background-size: cover;
     background-position:center;
