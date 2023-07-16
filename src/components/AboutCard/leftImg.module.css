@@ -15,6 +15,12 @@
 .card_img_div{
     padding: 1px;
 }
+
+.card_img_div img{
+    width: 200px;
+   
+    height: 100%;
+}
 .card_content_div .card_number{
     border: 1px solid rgba(255, 255, 255, 0.7);
     padding: 1px 10px;

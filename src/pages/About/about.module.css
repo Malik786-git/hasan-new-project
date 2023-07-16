@@ -3,7 +3,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
     background-color: rgb(35, 15, 55);
     position: relative;
     
