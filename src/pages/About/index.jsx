@@ -1,12 +1,14 @@
 import Navbar from "../../components/Navbar"
 import styles from "./about.module.css"
-import midIcon from "../../assets/midCircle.svg"
+// import midIcon from "../../assets/midCircle.svg"
+import midIcon from "../../assets/PlanetPNG.gif"
 import WalletBtn from "../../components/WalletBtn"
 import cardImg1 from "../../assets/card-1.gif"
 import cardImg2 from "../../assets/card-2.gif"
 import cardImg3 from "../../assets/card-3.gif"
 import AboutCard from "../../components/AboutCard"
 import FooterBar from "../../components/FooterBar"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -17,6 +19,7 @@ const About = () => {
     return (
 
         <div className={"container-fluid " + styles.about_container}>
+        
             <Navbar />
 
             <img className={styles.mid_circle} src={midIcon} alt="" />

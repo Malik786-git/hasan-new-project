@@ -1,8 +1,10 @@
 .product_main{
     height: 100vh;
-    background-image: url("../../assets/productBack.png");
-    /* background-position: center; */
+    /* background-image: url("../../assets/productBack.png"); */
+    background-image: url("../../assets/Screen03.gif");
+    background-position: 0px -100px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .main_heading{
     color: #FFF;

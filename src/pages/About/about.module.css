@@ -1,5 +1,5 @@
 .about_container{
-    background-image: url('../../assets/aboutBack.png');
+    background-image: url('../../assets/BG.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,12 +11,14 @@
 }
 .mid_circle{
     position: absolute;
-    top: 40%;
-    left: 40%;
+    width: 70%;
+    height: 80%;
+    top: 10%;
+    left: 13%;
     /* transform: translate(-50%, -50%); */
     z-index: 1;
-
-   animation: rotate 5s infinite linear; 
+    
+    /* animation: rotate 5s infinite linear;  */
 }
 .mid_circle:hover{
     animation-duration: 60s;
@@ -35,10 +37,12 @@
 .main_para{
     color: white;
     line-height: 60px !important;
+    z-index: 1;
 }
 .about_row{
     z-index: 3;
     height: 100%;
+    z-index: 1;
 }
 .about_span{
     color: rgba(255, 255, 255, 0.50);
@@ -51,6 +55,9 @@ letter-spacing: -0.16px;
 }
 .second_card{
     margin-left: 100px;
+}
+.card_main{
+    z-index: 100;
 }
 
 
